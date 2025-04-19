@@ -1,0 +1,56 @@
+/**
+ * @name Hide
+ * @author DHMorse
+ * @version 1.0.0
+ * @source https://github.com/DHMorse/technoCord
+ * @website https://github.com/DHMorse/technoCord
+ * @description Hide upsells
+*/
+
+/* Hide gift button */
+[aria-label="Send a gift"] {
+    display: none !important;
+}
+
+/* Hide gift button in message bar */
+div[class*="buttons-"] > button:has(svg[aria-label="Send a gift"]) {
+    display: none !important;
+}
+
+/* Hide Shop and Nitro links in sidebar */
+a[data-list-item-id*="shop"],
+a[data-list-item-id*="nitro"] {
+    display: none !important;
+}
+
+/* Hide Play Again section and activities */
+.headerContainer__675e5,
+.itemContainer__675e5 {
+    display: none !important;
+}
+
+/* Hide the container if it becomes empty */
+.container__13cf1:empty {
+    display: none !important;
+}
+
+/* Hide section divider */
+.sectionDivider__35e86 {
+    display: none !important;
+}
+
+/* Hide Apps button */
+.buttonContainer_e6e74f {
+    display: none !important;
+}
+
+/* Hide Direct Messages title */
+.title_c38106 {
+    display: none !important;
+}
+
+/* Hide Direct Messages bar */
+.bar_c38106 {
+    display: none !important;
+}
+
