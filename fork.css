@@ -105,8 +105,8 @@ body {
     /* status indicator colors */
     --online: var(--green-2); /* change to #43a25a for default */
     --dnd: var(--red-2); /* change to #d83a42 for default */
-    --idle: var(--yellow-2); /* change to #ca9654 for default */
-    --streaming: var(--purple-2); /* change to #593695 for default */
+    --idle: var(--blue-5); /* change to #ca9654 for default */
+    --streaming: var(--purple-5); /* change to #593695 for default */
     --offline: var(--text-4); /* change to #83838b for default offline color */
 
     /* border colors */
