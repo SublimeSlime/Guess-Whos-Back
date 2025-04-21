@@ -218,15 +218,28 @@ body {
   
   
   
-  /* Aligns reaction box thing with the text */
-  .reactions__23977 {
-    position: relative !important;
-    margin-left: 55px !important; /* Adjust to match text alignment */
-    display: flex !important;
-    align-items: center !important;
-  }
-  
-  
+/* Allow the reaction buttons container to overflow */
+.buttonContainer_c19a55,
+.buttons__5126c {
+  overflow: visible !important;
+}
+
+/* Position the inner bar relative to its container */
+/* Only apply to child messages, not starting ones */
+.message__5126c.cozyMessage__5126c.wrapper_c19a55:not(.groupStart__5126c) .buttonsInner__5126c {
+  position: absolute !important;
+  left: 100% !important;
+  margin-left: -25px !important; /* Adjust for spacing */
+  top: 0px !important;
+  z-index: 99 !important;
+  display: flex !important;
+}
+
+
+
+
+/* Deals with subsequent messages or whatever */
+
   .message__5126c.cozyMessage__5126c.wrapper_c19a55:not(.groupStart__5126c) {
     margin-left: 66px !important; /* Align the bubble with the first message */
     max-width: calc(100% - 60px) !important; /* Prevent stretching */
