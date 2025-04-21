@@ -228,8 +228,8 @@ body {
 /* Only apply to child messages, not starting ones */
 .message__5126c.cozyMessage__5126c.wrapper_c19a55:not(.groupStart__5126c) .buttonsInner__5126c {
   position: absolute !important;
-  left: 100% !important;
-  margin-left: -25px !important; /* Adjust for spacing */
+  left: 50% !important;
+/*  margin-left: -25px !important; /* Adjust for spacing */
   top: 0px !important;
   z-index: 99 !important;
   display: flex !important;
