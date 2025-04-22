@@ -43,14 +43,3 @@ a[data-list-item-id*="nitro"] {
 .buttonContainer_e6e74f {
     display: none !important;
 }
-
-/* Hide Direct Messages title */
-.title_c38106 {
-    display: none !important;
-}
-
-/* Hide Direct Messages bar */
-.bar_c38106 {
-    display: none !important;
-}
-
